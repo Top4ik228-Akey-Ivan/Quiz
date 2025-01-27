@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 0;
+}
+
+.logoImg{
+    width: 256px;
+}
+
+.headerText{
+    font-size: 64px;
+    color: white;
+}
+
+.choiceText{
+    text-align: center;
+
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+

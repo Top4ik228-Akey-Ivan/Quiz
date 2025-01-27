@@ -1,0 +1,51 @@
+.quizLogo{
+    width: 32px;
+    height: 32px;
+}
+
+.quiz{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quizText{
+    color: white;
+}
+
+.Css, .JavaScript, .React, .Redux{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 24px;
+
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+.Css{
+    border: 2px solid rgb(33, 150, 243);
+}
+.Css:hover{
+    background-color: rgba(33, 150, 243, 0.5);
+}
+
+.JavaScript{
+    border: 2px solid rgb(255, 223, 0);
+}
+.JavaScript:hover{
+    background-color : rgba(255, 223, 0, 0.5);
+}
+
+.React{
+    border: 2px solid rgb(97, 218, 251);
+}
+.React:hover{
+    background-color: rgba(97, 218, 251, 0.5);
+}
+
+.Redux{
+    border: 2px solid rgb(119, 73, 189);
+}
+.Redux:hover{
+    background-color: rgba(119, 73, 189, 0.5);
+}
