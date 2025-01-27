@@ -29,6 +29,8 @@
     border: none;
     outline: none;
 
+    cursor: pointer;
+
     background-color: rgb(245, 142, 39);
     font-size: 18px;
     text-align: left;

@@ -3,7 +3,7 @@ import styles from './HomeBtn.module.css'
 
 const HomeBtn = () => {
     return (
-        <Link style={{textDecoration: 'none'}} to='/'>
+        <Link style={{textDecoration: 'none'}} to='/home'>
             <button className={styles.homeBtn}>Home</button>
         </Link>
     );
